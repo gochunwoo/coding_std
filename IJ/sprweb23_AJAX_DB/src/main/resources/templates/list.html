@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Insert title here</title>
+    <script type="text/javascript">
+        function func(buserno) {
+            //alert(buserno);
+            document.getElementById("showData").innerHTML = "";
+
+            fetch(`jikwonlist?buserno=${buserno}`)
+                .then(response => {
+                    if (!response.ok) throw new Error("response was not ok");
+                    return response.json();
+                })
+                .then(jikwondatas => {
+                    let count = 0;
+                    let str = "<br/>* 근무 인원 *<br/>";
+                    str += "<table border='1'>";
+                    str += "<tr><th>사번</th><th>직원명</th><th>직급</th></tr>";
+
+                    const jlist = jikwondatas.datas;
+                    jlist.forEach(obj => {
+                        str += "<tr>";
+                        str += "<td>" + obj["jikwonno"] + "</td>";
+                        str += "<td>" + obj["jikwonname"] + "</td>";
+                        str += "<td>" + obj["jikwonjik"] + "</td>";
+                        str += "</tr>";
+                        count++;
+                    });
+                    str += "<tr><td colspan='3'>인원수 : " + count + "명</td></tr>";
+                    str += "</table>";
+                    document.getElementById("showData").innerHTML = str;
+                })
+                .catch(error => {
+                    document.getElementById("showData").innerText = "에러 : " + error.message;
+                });
+        }
+    </script>
+</head>
+<body>
+<div th:if="${session.idKey == null}">
+    <a href="login.html">로그인 하세요</a>
+</div>
+
+<div th:if="${session.idKey != null }">
+    [[${session.idKey}]] 님 환영합니다<br>
+    <a href="logout">로그아웃</a>
+    <br>
+    <br>
+    <table border="1">
+        <tr>
+            <th>부서번호</th>
+            <th>부서명</th>
+            <th>전화</th>
+        </tr>
+        <th:block th:each="bu:${blist}">
+            <tr>
+                <td>[[${bu.buserno}]]</td>
+                <td>
+                    <a th:href="|javascript:func(${bu.buserno})|" th:text="${bu.busername}">부서명</a>
+                </td>
+                <td>[[${bu.busertel}]]</td>
+            </tr>
+        </th:block>
+    </table>
+</div>
+<br>
+<div id="showData"></div>
+</body>
+</html>

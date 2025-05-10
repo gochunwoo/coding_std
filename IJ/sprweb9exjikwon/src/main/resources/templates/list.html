@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="https://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<h3>직급검색</h3>
+<table border="1">
+  <tr>
+    <th>사번</th><th>이름</th><th>직급</th><th>성별</th><th>연봉</th>
+  </tr>
+  <th:block th:if="${jikwon.size > 0}">
+    <tr th:each="data : ${jikwon}">
+      <td th:text="${data.jikwonno}">사번</td>
+      <td th:text="${data.jikwonname}">이름</td>
+      <td th:text="${data.jikwonjik}">직급</td>
+      <td th:text="${data.jikwongen}">성별</td>
+      <td>[[${#numbers.formatInteger(data.jikwonpay, 3, 'COMMA')}]]</td>
+    </tr>
+    <tr>
+      <td colspan="5">
+        건수 : [[${jikwon.size}]]
+      </td>
+    </tr>
+    <tr>
+      <td colspan="5">
+        <form th:action="@{/list}" method="get">
+          직급 : <input type="text" name="searchValue">
+          <input type="submit" value="검색">
+        </form>
+      </td>
+    </tr>
+  </th:block>
+</table>
+</body>
+</html>

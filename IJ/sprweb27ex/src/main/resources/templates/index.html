@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>상품 목록</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script>
+    function fetchSangpums() {
+        fetch('/api/products')
+        .then(response => response.json())
+        .then(data => {
+            console.log("Fetched data:", data);
+            displaySangpums(data);
+            showMessage('', '');
+        })
+        .catch(error => {
+            console.error("Fetch error:", error);
+            showMessage("목록 가져오기 오류", "danger");
+        });
+    }
+
+    function displaySangpums(list){
+        const tableBody = document.getElementById('tableBody');
+        tableBody.innerHTML = '';
+        list.forEach(item => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${item.code}</td>
+                <td>${item.sang}</td>
+                <td>${item.su}</td>
+                <td>${item.dan}</td>
+                <td><button type="button" class="btn btn-warning btn-sm" onclick="loadUpdate(${item.code})">수정</button></td>
+                <td><button type="button" class="btn btn-danger btn-sm" onclick="deleteSangpum(${item.code})">삭제</button></td>
+            `;
+            tableBody.appendChild(row);
+        });
+    }
+
+    function deleteSangpum(code){
+        if(confirm('정말 삭제할까요?')){
+            fetch(`/api/products/${code}`, { method: 'DELETE' })
+            .then(response => response.json())
+            .then(result => {
+                if(result.isSuccess){
+                    fetchSangpums();
+                    showMessage("삭제 성공", "success");
+                } else {
+                    showMessage(result.msg, "danger");
+                }
+            })
+            .catch(error => showMessage("삭제 오류 발생", "danger"));
+        }
+    }
+
+    function loadInsert(){
+        fetch('/products/insert')
+        .then(res => res.text())
+        .then(html => {
+            document.getElementById('formArea').innerHTML = html;
+            document.getElementById("insertForm").addEventListener("submit", insertSangpum);
+        });
+    }
+
+    function loadUpdate(code){
+        fetch('/products/update/' + code)
+        .then(res => res.text())
+        .then(html => {
+            document.getElementById('formArea').innerHTML = html;
+            // 데이터 채우기
+            setTimeout(function(){
+                fetch('/api/products')
+                .then(response => response.json())
+                .then(list => {
+                    const item = list.find(i => i.code === code);
+                    if(item){
+                        document.querySelector("input[name='code']").value = item.code;
+                        document.querySelector("input[name='sang']").value = item.sang;
+                        document.querySelector("input[name='su']").value = item.su;
+                        document.querySelector("input[name='dan']").value = item.dan;
+                    }
+                });
+                document.getElementById("updateForm").addEventListener("submit", updateSangpum);
+            }, 100);
+        });
+    }
+
+    // --- insert 함수 ---
+    function insertSangpum(event) {
+        event.preventDefault();
+        const codeVal = document.querySelector("input[name='code']").value.trim();
+        const sang = document.querySelector("input[name='sang']").value.trim();
+        const suVal = document.querySelector("input[name='su']").value.trim();
+        const danVal = document.querySelector("input[name='dan']").value.trim();
+
+        const code = parseInt(codeVal);
+        const su = suVal;
+        const dan = danVal;
+
+        if (isNaN(code) || code <= 0 || sang === "" || su === "" || dan === "") {
+            alert("모든 항목을 정확히 입력하세요.");
+            return;
+        }
+
+        fetch('/api/products', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ code, sang, su, dan })
+        })
+        .then(response => response.json())
+        .then(result => {
+            if (result.isSuccess) {
+                alert("등록 성공");
+                fetchSangpums();
+                showMessage("등록 성공", "success");
+                document.getElementById('formArea').innerHTML = '';
+            } else {
+                alert(result.msg);
+            }
+        })
+        .catch(error => alert("등록 오류 발생: " + error));
+    }
+
+    // --- update 함수 ---
+    function updateSangpum(event) {
+        event.preventDefault();
+        const code = document.querySelector("input[name='code']").value.trim();
+        const sang = document.querySelector("input[name='sang']").value.trim();
+        const su = document.querySelector("input[name='su']").value.trim();
+        const dan = document.querySelector("input[name='dan']").value.trim();
+
+        if (code === "" || sang === "" || su === "" || dan === "") {
+            showMessage("모든 항목을 입력하세요.", "danger");
+            return;
+        }
+
+        fetch('/api/products', {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ code: parseInt(code), sang, su, dan })
+        })
+        .then(response => response.json())
+        .then(result => {
+            if (result.isSuccess) {
+                document.getElementById('formArea').innerHTML = '';
+                fetchSangpums();
+                showMessage("수정 성공", "success");
+            } else {
+                showMessage(result.msg, "danger");
+            }
+        })
+        .catch(error => showMessage("수정 오류 발생: " + error, "danger"));
+    }
+
+    function showMessage(msg, type){
+        const messageArea = document.getElementById('messageArea');
+        if(msg === ''){
+            messageArea.innerHTML = '';
+        } else {
+            messageArea.innerHTML = `<div class="alert alert-${type}">${msg}</div>`;
+        }
+    }
+
+    window.onload = fetchSangpums;
+    </script>
+</head>
+<body class="container mt-4">
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">상품 관리</a>
+        <button class="btn btn-light btn-sm ms-2" onclick="fetchSangpums()">목록</button>
+        <button class="btn btn-light btn-sm ms-2" onclick="loadInsert()">상품 추가</button>
+    </div>
+</nav>
+
+<div id="messageArea"></div>
+
+<table class="table table-bordered table-striped">
+    <thead class="table-dark">
+        <tr>
+            <th>코드</th><th>상품명</th><th>수량</th><th>단가</th><th>수정</th><th>삭제</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<div id="formArea" class="mt-4"></div>
+
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function () {
+            document.querySelector("#btnShow").addEventListener("click", loadSangpums);
+        });
+
+        async function loadSangpums() {
+            try {
+                document.querySelector("tbody").innerHTML = "";
+
+                const response = await fetch("/sangpums");
+                if (!response.ok) throw new Error(`서버 응답 오류: ${response.status}`);
+
+                const data = await response.json();
+                renderTable(data.datas);
+
+            } catch (error) {
+                document.querySelector("#showErr").textContent = `에러 발생: ${error.message}`;
+            }
+        }
+
+        function renderTable(datas) {
+            if (!datas.length) {
+                document.querySelector("tbody").innerHTML = "<tr><td colspan='4'>데이터 없음</td></tr>";
+                return;
+            }
+
+            const str = datas.map(sdata => `
+        <tr>
+            <td>${sdata.code}</td>
+            <td>${sdata.sang}</td>
+            <td>${sdata.su}</td>
+            <td>${sdata.dan}</td>
+        </tr>
+    `).join("");
+
+            document.querySelector("tbody").innerHTML = str;
+        }
+
+
+        // document.addEventListener("DOMContentLoaded", function() {
+        //     document.querySelector("#btnShow").addEventListener("click", function () {
+        //         document.querySelector("tbody").innerHTML = "";
+        //
+        //         fetch("sangpums")
+        //             .then(response => response.json())
+        //             .then(data => {
+        //                 console.log(data.datas);
+        //                 let str = "";
+        //                 let sdatas = data.datas;
+        //                 sdatas.forEach(function (sdata) {
+        //                     str += "<tr>";
+        //                     str += "<td>" + sdata["code"] + "</td>";
+        //                     str += "<td>" + sdata["sang"] + "</td>";
+        //                     str += "<td>" + sdata["su"] + "</td>";
+        //                     str += "<td>" + sdata.dan + "</td>";
+        //                     str += "</tr>";
+        //                 });
+        //
+        //                 document.querySelector("tbody").innerHTML = str;
+        //             })
+        //             .catch(() => {
+        //                 document.querySelector("#showErr").innerHTML = "<b>에러발생</b>"
+        //             });
+        //     })
+        // })
+    </script>
+</head>
+<body>
+<h2>상품 정보 (@MVC + AJAX + fetch 사용)</h2>
+<button id="btnShow">상품 보여줘</button>
+<table>
+    <thead>
+    <tr>
+        <th>코드</th>
+        <th>품명</th>
+        <th>수량</th>
+        <th>단가</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+<br>
+<div id="showErr"></div>
+</body>
+</html>

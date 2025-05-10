@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#btnShow").click(function () {
+                $("tbody").empty();
+                $.ajax({
+                    type: "GET",
+                    url: "sangpums",
+                    dataType: "json",
+                    success: function (sangpumdata) {
+                        // alert(sangpumdata.datas);
+                        let str = "";
+                        let sdatas = sangpumdata.datas;
+                        $(sdatas).each(function (index, arr) {
+                            str += "";
+                            str += "<tr>";
+                            str += "<td>" + arr["code"] + "</td>";
+                            str += "<td>" + arr["sang"] + "</td>";
+                            str += "<td>" + arr["su"] + "</td>";
+                            str += "<td>" + arr.dan + "</td>";
+                            str += "</tr>";
+                        });
+                        $("tbody").html(str);
+                    },
+                    error: function (e) {
+                        // $("showErr").text("에러발생 : " + e.status)
+                        jQuery("showErr").text("에러발생 : " + e.status)
+                    }
+                })
+            })
+        })
+    </script>
+</head>
+<body>
+<h2>상품 정보 (@MVC + AJAX)</h2>
+<button id="btnShow">상품 보여줘</button>
+<table>
+    <thead>
+    <tr>
+        <th>코드</th><th>품명</th><th>수량</th><th>단가</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+<br>
+<div id="showErr"></div>
+</body>
+</html>

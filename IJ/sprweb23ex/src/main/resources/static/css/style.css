@@ -1,0 +1,117 @@
+/* 1. 전체 폰트와 배경 */
+body {
+    padding-top: 70px;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #fdfdfd;
+}
+
+/* 2. 네비게이션 */
+.navbar {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* 3. Hero 섹션 */
+.hero-section {
+    height: 70vh;
+    background-color: #f8fbff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    overflow: hidden;
+}
+
+.hero-section .hero-bg {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 1200px;
+    z-index: 0;
+    opacity: 0.1;
+}
+.stats-box-section {
+    background-color: #f8fbff;
+}
+
+.stats-box {
+    background: linear-gradient(90deg, #d946ef, #7c3aed); /* 보라 그라데이션 */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+/* 4. 통계/카드 공통 */
+.stats-section,
+.solution-section,
+.ai-cards-section {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.8s ease;
+}
+
+/* 공통 등장 애니메이션 초기 상태 */
+.slide-section {
+    opacity: 0;
+    transform: translateY(60px);
+    transition: all 0.8s ease;
+}
+
+/* 화면에 보이면 부드럽게 등장 */
+.slide-section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.stats-section.active,
+.solution-section.active,
+.ai-cards-section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 5. 카드 공통 스타일 */
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+    transition: transform 0.3s ease;
+    background-color: #ffffff;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* 6. 블로그 이미지 높이 제한 */
+.blog-section .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+/* 7. newsletter */
+.newsletter-section {
+    background-color: #f8fbff;
+}
+
+.newsletter-section input[type=email] {
+    max-width: 400px;
+}
+
+/* 8. footer */
+.footer-section {
+    font-size: 14px;
+    background-color: #111;
+    color: #fff;
+}
+
+.footer-section h5 {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.footer-section p {
+    margin-bottom: 4px;
+    line-height: 1.6;
+}

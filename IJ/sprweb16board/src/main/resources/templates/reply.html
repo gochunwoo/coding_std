@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+<link rel="stylesheet" th:href="@{/css/board.css}">
+<script type="text/javascript">
+window.onload = function(){
+	document.querySelector("#btnReply").onclick=chk;	
+}
+
+function chk(){
+	if(refrm.name.value === ""){
+		alert("작성자를 입력하시오");
+		return;
+	}
+	// 나머지는 생략....
+	
+	refrm.submit();
+}
+</script>
+</head>
+<body>
+<div class="wrapper">
+<h3>* 댓글 쓰기 *</h3>
+<th:block th:if="${data != null}">
+<form th:action="@{reply}" name="refrm" method="post" th:object="${data}">
+	<input type="hidden" th:field="*{num}">
+	<input type="hidden" th:field="*{gnum}">
+	<input type="hidden" th:field="*{onum}">
+	<input type="hidden" th:field="*{nested}">
+	<input type="hidden" name="page" th:value="${page}">
+	
+<table class="table">
+	<tr>
+		<td>이름</td>
+		<td><input type="text" name="name"></td>
+	</tr>
+	<tr>
+		<td>암호</td>
+		<td><input type="text" name="pass"></td>
+	</tr>
+	<tr>
+		<td>이메일</td>
+		<td><input type="text" name="mail"></td>
+	</tr>
+	<tr>
+		<td>제목</td>
+		<td><input type="text" name="title" style="width: 100%" 
+		th:value="|RE:*{#strings.length(title) > 4?#strings.substring(title,0,4):title}|"></td>
+	</tr>
+	<tr>
+		<td>내용</td>
+		<td>
+			<textarea rows="5" style="width: 100%" name="cont"></textarea>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center;">
+			<input type="button" value="완료" id="btnReply">
+			<input type="button" value="목록" th:onclick="|Location.href='@{list(page=${page})}'|">
+		</td>
+	</tr>
+</table>
+</form>
+</th:block>
+</div>
+</body>
+</html>

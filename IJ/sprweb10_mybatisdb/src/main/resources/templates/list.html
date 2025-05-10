@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>목록</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<h2>회원 목록(@MVC - MyBatis Annotation)</h2>
+<a th:href="@{/insert}">회원 추가</a>
+<th:block th:if="${datas.size > 0 }">
+    <table border="1">
+        <tr>
+            <th>번호</th><th>이름</th><th>주소</th><th>수정/삭제</th>
+        </tr>
+        <tr th:each="data:${datas}">
+            <td>[[${data.num}]]</td>
+            <td>[[${data.name}]]</td>
+            <td>[[${data.addr}]]</td>
+            <td>
+                <a th:href="@{/update(num=${data.num})}">[수정]</a>
+                <a th:href="@{/delete(num=${data.num})}">[삭제]</a>
+            </td>
+        </tr>
+    </table>
+</th:block>
+<br>
+<a href="index.html">메인 으로</a>
+</body>
+</html>

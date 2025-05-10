@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>에러표시페이지</title>
+</head>
+<body>
+와우 에러발생!<br>
+원인은 [[${msg}]]
+<hr>
+<a th:href="@{/}">목록보기</a>
+</body>
+</html>

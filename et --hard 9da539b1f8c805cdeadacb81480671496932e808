@@ -1,0 +1,180 @@
+[33mcommit 34f6bd50658aec7e6f7acdba344ae794bdf39f33[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Tue May 13 17:48:03 2025 +0900
+
+    05월 13일 배운 기술 정리
+
+[33mcommit 9da539b1f8c805cdeadacb81480671496932e808[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Tue May 13 17:45:48 2025 +0900
+
+    정리
+
+[33mcommit 89164370ed90041a4a0078c2c66859910cc31ae6[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Tue May 13 17:40:50 2025 +0900
+
+    생명주기관리용
+
+[33mcommit 7426bd602e481ee267775a24ca228a818589b00c[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Tue May 13 17:38:49 2025 +0900
+
+    조건부렌더링,useCalback
+
+[33mcommit a3af82c66017e66a4c937c117a8ea50e7bdfdb02[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Tue May 13 17:31:45 2025 +0900
+
+    useCallback, 조건부 렌더링
+
+[33mcommit 6aaac2c78ad76526212ca1448d3746b19f55eec9[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Tue May 13 17:25:20 2025 +0900
+
+    라이프사이클,생명주기,마운트
+
+[33mcommit 637e936be39217138e44ac450af1f727ad30ebf6[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Mon May 12 23:55:41 2025 +0900
+
+    객체지향프로그래밍
+
+[33mcommit 17351544b2bbeaa1a3ae89a9ff1047ca6d106960[m
+Merge: 5c765a7 f8552d0
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Mon May 12 22:19:02 2025 +0900
+
+    Merge branch 'main' of https://github.com/gochunwoo/coding_std
+
+[33mcommit 5c765a721d1996bb3c23c388182b5cdde3e43222[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Mon May 12 22:16:44 2025 +0900
+
+    requests 외부패키지 사용
+
+[33mcommit 5487ec8b57ce3cff89900622ea02d08e42baeb92[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Mon May 12 17:57:12 2025 +0900
+
+    5월12일 배운기술
+
+[33mcommit f8552d06c5ccada164fab6f5eac598a0320ac131[m
+Author: cgo <youthes2821@naver.com>
+Date:   Mon May 12 17:40:13 2025 +0900
+
+    05월21일 배운내용
+
+[33mcommit f852aac3e26947badae239d0785ae822498af4d6[m
+Author: cgo <youthes2821@naver.com>
+Date:   Mon May 12 17:39:27 2025 +0900
+
+    Create 05월 21일
+
+[33mcommit 88c2f34fb6ae34f408a6f533b22e40391a5cc548[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Mon May 12 17:37:40 2025 +0900
+
+    Life Cycle 와 마운트 사용
+
+[33mcommit 4b27c5db18ea925f4c5716617673b0599ab21cb0[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Mon May 12 15:46:13 2025 +0900
+
+    리액트 Memoization 처리
+
+[33mcommit 01c57c164569984a4df90c4ac27a9a00fde55238[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Mon May 12 13:18:08 2025 +0900
+
+    state+ map+filter+reduce 문제풀이
+
+[33mcommit d101fdc1828afc8dfb9c1927c3d8771dd459e57d[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Mon May 12 11:11:59 2025 +0900
+
+    map으로 취미 리스트 렌더링
+
+[33mcommit a31927f64dc8f6300af142abb0739888563a7a06[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Mon May 12 09:27:19 2025 +0900
+
+    for문 if조건문 startswite()메소드,not논리연산
+
+[33mcommit 64d1f67b721a6026ffec7ac0559c1c33a85bb867[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sun May 11 21:59:50 2025 +0900
+
+    for문 사용법
+
+[33mcommit 5657629f2bb3935ac7f752bbcb7caaf1a84708b4[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sun May 11 21:34:12 2025 +0900
+
+    list,tuple,dictionary
+
+[33mcommit 34115c50cd29a9c5bde6ebf6cbeabcca59641d44[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sun May 11 20:16:42 2025 +0900
+
+    기본타입,if,while,random임포트
+
+[33mcommit 8911ad5b0dd933e686a786cce66b31b4aae1cb16[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sat May 10 17:23:57 2025 +0900
+
+    중간프로젝트,정통방식
+
+[33mcommit a07a0d70f71cac6b5e5a84eb17cc029e9860dc3b[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sat May 10 17:05:56 2025 +0900
+
+    이벤트사용해서문제풀기
+
+[33mcommit 8eb7c81af39200d47c1dbf47e7b2a73601c2073c[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sat May 10 17:05:08 2025 +0900
+
+    이벤트 사용2
+
+[33mcommit 86e401aa712e89ae4c071ac53243e21c9cf13775[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sat May 10 17:03:56 2025 +0900
+
+    리액트 이벤트사용
+
+[33mcommit 868c3c8ab7c0e3e55827a887cdf4b14c8fb52371[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sat May 10 17:02:56 2025 +0900
+
+    리액트 기초
+
+[33mcommit 5ddd3b31fdfe6c5d1e2afaa11419051654ea925f[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sat May 10 16:59:11 2025 +0900
+
+    리액트 기초
+
+[33mcommit e60261ac1ad6b70a3d76647133bdcc11482eac2e[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sat May 10 16:57:48 2025 +0900
+
+    리액트 기초
+
+[33mcommit 374d87de9af2a50eaf0d145329a7e1d99ee4d0bb[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sat May 10 16:56:10 2025 +0900
+
+    리액트기초
+
+[33mcommit 75af547f6b6f3705a5e252bd2366d1560df6b2af[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sat May 10 16:48:55 2025 +0900
+
+    리액트
+
+[33mcommit aedaa6f8633992d15120493ffbd2f84f2b387809[m
+Author: gochunwoo <youthes2821@naver.com>
+Date:   Sat May 10 16:42:19 2025 +0900
+
+    스프링부트

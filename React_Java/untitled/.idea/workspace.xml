@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="untitled:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0872d9ad-10e5-4e01-99f3-dc721b40938c" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/.idea/IJ.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/src/main/java/com/example/demo/FormController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/src/main/resources/templates/result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/h2db/mydata.mv.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/h2db/mydata.trace.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/nomadecode/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/nomadecode/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/nomadecode/.idea/nomadecode.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/nomadecode/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/nomadecode/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/nomadecode/app1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/nomadecode/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/src/main/java/pack/PackApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/src/main/java/pack/model/Buser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/src/main/java/pack/model/Jikwon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/pack/src/test/java/pack/PackApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/qodana.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/java/pack/Spr19joinApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/java/pack/controller/JikwonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/java/pack/model/Buser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/java/pack/model/BuserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/java/pack/model/BuserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/java/pack/model/Jikwon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/java/pack/model/JikwonDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/java/pack/model/JikwonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/java/pack/model/JikwonService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/admin.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/btn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/img_main.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/list.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/main.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/main2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/newjeans.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/re.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/reply.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/top2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/images/write.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/main/resources/templates/jikwonlist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spr19join/src/test/java/pack/Spr19joinApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/main/java/pack/SpringRestApiApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/main/java/pack/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/main/java/pack/controller/BoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/main/java/pack/dto/BoardDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/main/java/pack/model/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/main/java/pack/model/BoardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/main/java/pack/service/BoardService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/main/resources/templates/board/board/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/main/resources/templates/board/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/spring_rest_api/src/test/java/pack/SpringRestApiApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb1/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/java/pack/Sprweb10MybatisdbApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/java/pack/controller/MemBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/java/pack/controller/MemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/java/pack/model/DataMapperInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/java/pack/model/DataProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/java/pack/model/MemDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/resources/static/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/resources/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/resources/templates/insert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/main/resources/templates/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb10_mybatisdb/src/test/java/pack/Sprweb10MybatisdbApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/src/main/java/pack/Sprweb11jpaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/src/main/java/pack/controller/FormBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/src/main/java/pack/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/src/main/java/pack/model/DataDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/src/main/java/pack/model/SangpumDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/src/main/java/pack/model/SangpumRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb11jpa/src/test/java/pack/Sprweb11jpaApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/src/main/java/pack/Sprwebb12jpaExjikwonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/src/main/java/pack/controller/FormBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/src/main/java/pack/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/src/main/java/pack/model/DataDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/src/main/java/pack/model/JikwonDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/src/main/java/pack/model/JikwonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb12jpa_exjikwon/src/test/java/pack/Sprwebb12jpaExjikwonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/java/pack/Sprweb13jpaCrudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/java/pack/controller/MemBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/java/pack/controller/MemController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/java/pack/model/DataProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/java/pack/model/Mem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/java/pack/model/MemCrudRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/resources/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/resources/templates/insert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/resources/templates/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/main/resources/templates/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb13jpa_crud/src/test/java/pack/Sprweb13jpaCrudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/java/pack/Sprweb14BoardApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/java/pack/controller/BoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/java/pack/model/Springboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/java/pack/repository/SpringboardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/resources/static/css/board.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/resources/static/js/board.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/resources/static/videos/main-bg.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/resources/templates/board/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/resources/templates/board/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/resources/templates/board/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/resources/templates/board/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/main/resources/templates/board/write.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb14_board/src/test/java/pack/Sprweb14BoardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/main/java/pack/Sprweb15ExApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/main/java/pack/controller/GogekController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/main/java/pack/controller/GogekForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/main/java/pack/model/Gogek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/main/java/pack/model/GogekDataProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/main/java/pack/model/GogekDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/main/java/pack/model/GogekRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/main/java/pack/util/AgeCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15_ex/sprweb15_ex/src/test/java/pack/Sprweb15ExApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/src/main/java/pack/Sprweb15mybatisMappingApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/src/main/java/pack/controller/BoardController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/src/main/java/pack/model/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/src/main/java/pack/model/BoardDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/src/main/java/pack/model/DataMapperInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/src/main/resources/mybatis/mapper/DataMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb15mybatis_mapping/src/test/java/pack/Sprweb15mybatisMappingApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/Sprweb16boardApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/controller/BoardBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/controller/DeleteController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/controller/DetailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/controller/InsertController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/controller/ListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/controller/ReplyController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/controller/UpdateController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/model/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/model/BoardDaoProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/java/pack/model/BoardRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/css/board.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/admin.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/btn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/img_main.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/list.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/main.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/main2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/newjeans.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/re.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/reply.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/top2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/images/write.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/templates/detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/templates/insform.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/templates/pass_err.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/templates/reply.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/main/resources/templates/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb16board/src/test/java/pack/Sprweb16boardApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/java/pack/Sprweb17EntiyDtoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/java/pack/controller/BuserBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/java/pack/controller/BuserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/java/pack/model/Buser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/java/pack/model/BuserCrudRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/java/pack/model/BuserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/java/pack/model/DataProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/admin.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/btn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/img_main.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/list.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/main.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/main2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/newjeans.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/re.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/reply.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/top2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/images/write.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/templates/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/templates/insert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb17EntiyDto/src/test/java/pack/Sprweb17EntiyDtoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/main/java/pack/Sprweb18EntityDtoExApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/main/java/pack/controller/GogekBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/main/java/pack/controller/GogekController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/main/java/pack/model/DataDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/main/java/pack/model/Gogek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/main/java/pack/model/GogekDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/main/java/pack/model/GogekRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18EntityDto_ex/sprweb18EntityDto_ex/src/test/java/pack/Sprweb18EntityDtoExApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/java/pack/Sprweb18gogekDtoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/java/pack/controller/GogekController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/java/pack/model/Gogek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/java/pack/model/GogekDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/java/pack/model/GogekRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/java/pack/model/GogekService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/admin.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/btn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/img_main.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/list.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/main.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/main2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/newjeans.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/re.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/reply.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/top2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/images/write.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/templates/gogeklist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb18gogekDto/src/test/java/pack/Sprweb18gogekDtoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/java/pack/Sprweb20joinApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/java/pack/controller/ListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/java/pack/model/Buser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/java/pack/model/BuserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/java/pack/model/DataProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/java/pack/model/Gogek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/java/pack/model/GogekRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/java/pack/model/Jikwon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/java/pack/model/JikwonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/resources/templates/damdang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/resources/templates/jbuser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/main/resources/templates/jgogek.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20join/src/test/java/pack/Sprweb20joinApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/java/pack/Sprweb21joinexApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/java/pack/conreoller/ListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/java/pack/model/Buser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/java/pack/model/BuserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/java/pack/model/DataProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/java/pack/model/Gogek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/java/pack/model/GogekRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/java/pack/model/Jikwon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/java/pack/model/JikwonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/resources/templates/gogeklist.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb20joinex/src/test/java/pack/Sprweb21joinexApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/src/main/java/com/example/sprweb21ajax/JsonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/src/main/java/com/example/sprweb21ajax/MyModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/src/main/java/com/example/sprweb21ajax/Sprweb21AjaxApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/src/main/resources/static/ajaxtest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/src/main/resources/static/ajaxtest2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb21AJAX/src/test/java/com/example/sprweb21ajax/Sprweb21AjaxApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/main/java/pack/Sprweb22ajaxdbApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/main/java/pack/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/main/java/pack/model/DataDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/main/java/pack/model/DataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/main/java/pack/model/Sangpum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/main/java/pack/model/SangpumDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/main/resources/static/sangpum.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/main/resources/static/sangpum2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb22ajaxdb/src/test/java/pack/Sprweb22ajaxdbApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/java/pack/Sprweb23AjaxDbApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/java/pack/controller/DataController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/java/pack/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/java/pack/model/Buser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/java/pack/model/BuserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/java/pack/model/DataDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/java/pack/model/DataRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/java/pack/model/DataRepository2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/java/pack/model/Jikwon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/java/pack/model/JikwonDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/resources/static/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/resources/static/logout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23_AJAX_DB/src/test/java/pack/Sprweb23AjaxDbApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/Sprweb23exApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/controller/GogekSearchController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/controller/PageController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/dto/GogekDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/dto/JikwonDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/entity/Buser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/entity/Gogek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/entity/Jikwon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/repository/GogekRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/repository/JikwonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/service/GogekSearchService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/java/pack/service/ManagerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/admin.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/ai-robot.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/bar.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/blog1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/blog3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/body.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/btn.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/del.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/edit.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/hero-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/icon1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/icon2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/icon3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/img_main.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/list.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/main.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/main.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/main2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/newjeans.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/re.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/reply.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/top.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/top2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/img/write.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/js/findmanager.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/static/js/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/main/resources/templates/findmanager.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb23ex/src/test/java/pack/Sprweb23exApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/java/pack/Sprweb24Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/java/pack/controller/GetController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/java/pack/controller/PostController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/java/pack/controller/PostDataBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/java/pack/controller/PutController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/resources/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/resources/static/test1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/resources/static/test2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/resources/static/test3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/main/resources/static/test4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb24/src/test/java/pack/Sprweb24ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/java/pack/Sprweb25RestCrudApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/java/pack/controller/MemApiController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/java/pack/controller/MemBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/java/pack/controller/MemViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/java/pack/dto/MemDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/java/pack/entity/Mem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/java/pack/repository/MemCrudRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/java/pack/service/DataProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/resources/templates/insert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/main/resources/templates/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb25Rest_CRUD/src/test/java/pack/Sprweb25RestCrudApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/src/main/java/pack/Sprweb27TodoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/src/main/java/pack/controller/TodoController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/src/main/java/pack/controller/TodoRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/src/main/java/pack/model/TodoEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/src/main/java/pack/model/TodoResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/src/main/java/pack/model/TodoService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/src/main/java/pack/repository/TodoRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27_todo/src/test/java/pack/Sprweb27TodoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/java/pack/Sprweb27exApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/java/pack/controller/SangpumBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/java/pack/controller/SangpumController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/java/pack/controller/SangpumViewController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/java/pack/model/DataProcess.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/java/pack/model/Sangpum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/java/pack/model/SangpumDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/java/pack/model/SangpumRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/resources/static/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/resources/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/resources/templates/insert.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/main/resources/templates/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb27ex/src/test/java/pack/Sprweb27exApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/src/main/java/pack/Sprweb28AopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/src/main/java/pack/aspect/Myaspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/src/main/java/pack/aspect/SecurityClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/src/main/java/pack/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/src/main/java/pack/model/MyModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/src/main/java/pack/model/MyModelInter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb28AOP/src/test/java/pack/Sprweb28AopApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/Sprweb32AopLoginExApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/aspect/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/controller/JikwonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/model/Buser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/model/BuserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/model/Gogek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/model/GogekRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/model/Jikwon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/model/JikwonDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/java/pack/model/JikwonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/resources/templates/jikshow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29AopLogin_EX/src/test/java/pack/Sprweb32AopLoginExApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/Sprweb29AopLoginApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/aspect/LoginClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/aspect/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/controller/JikwonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/dto/JikwonDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/entity/Buser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/entity/Jikwon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/repository/BuserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/repository/JikwonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/java/pack/service/DataDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/resources/templates/jikshow.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29_AOP_Login/src/test/java/pack/Sprweb29AopLoginApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/Sprweb29exaopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/aspect/LoginClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/aspect/MyAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/controller/ListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/model/Buser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/model/DataDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/model/Gogek.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/model/GogekRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/model/Jikwon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/java/pack/model/JikwonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/main/resources/templates/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb29exaop/src/test/java/pack/Sprweb29exaopApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/java/pack/Sprweb5thApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/java/pack/controller/DataDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/java/pack/controller/MappingController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/java/pack/controller/TestController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/static/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/static/images/my.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/templates/layout/foter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/templates/layout/header.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/templates/layout/mylayout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/templates/show1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/templates/show2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/templates/show3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/templates/show4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/templates/show5-1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/main/resources/templates/show5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb5th/src/test/java/pack/Sprweb5thApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/HELP.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/src/main/java/pack/Sprweb8exdbjikwonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/src/main/java/pack/jikwonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/src/main/java/pack/model/MyDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/src/main/java/pack/model/jikwonDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/src/main/java/pack/model/jikwonDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb8exdbjikwon/src/test/java/pack/Sprweb8exdbjikwonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/src/main/java/pack/Sprweb9dbMybatisApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/src/main/java/pack/controller/FormBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/src/main/java/pack/controller/ListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/src/main/java/pack/model/DataDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/src/main/java/pack/model/DataMapperInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/src/main/java/pack/model/SangpumDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9db_mybatis/src/test/java/pack/Sprweb9dbMybatisApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/src/main/java/pack/Sprweb9exjikwonApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/src/main/java/pack/controller/FormBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/src/main/java/pack/controller/ListController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/src/main/java/pack/model/DataDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/src/main/java/pack/model/DataMapperInterface.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/src/main/java/pack/model/JikwonDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/src/main/resources/templates/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb9exjikwon/src/test/java/pack/Sprweb9exjikwonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/java/pack/SprwebReactApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/asset-manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/static/css/main.f855e6bc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/static/css/main.f855e6bc.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/static/js/453.ba41839c.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/static/js/453.ba41839c.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/static/js/main.ab66baea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/static/js/main.ab66baea.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/static/js/main.ab66baea.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/main/resources/static/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../IJ/sprweb_React/src/test/java/pack/SprwebReactApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React-Java/untitled/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React-Java/untitled/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React-Java/untitled/src/main/webapp/abc.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../React-Java/untitled/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/aaa.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/aaa.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../vscode/nomade_Python/main1/oop.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gochunwoo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gochunwoo/coding_std.git&quot;,
+    &quot;accountId&quot;: &quot;731ae247-06f6-48d8-83a8-1428da59664f&quot;
+  }
+}</component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2x4g63oF2z15IWqwAblwW0j6Td7" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Tomcat 서버.Tomcat 10.1.36.executor": "Run",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/coding/spring/untitled/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "SDK",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.31724137",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\coding\spring\untitled\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.36" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.36" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="untitled:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="3689cf5d-caad-429c-998e-a038d4ed599e" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51128" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="untitled:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="0872d9ad-10e5-4e01-99f3-dc721b40938c" name="변경" comment="" />
+      <created>1747202581386</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1747202581386</updated>
+      <workItem from="1747202582373" duration="3917000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

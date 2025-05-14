@@ -50,3 +50,5 @@ team_blue.show_players()
 # XP 총합 확인
 team_blue.show_total_xp()
 team_x.show_total_xp()
+
+# 문제풀이

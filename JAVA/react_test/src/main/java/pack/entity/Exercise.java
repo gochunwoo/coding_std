@@ -1,4 +1,4 @@
 package pack.entity;
 
-public class Buser {
+public class Exercise {
 }

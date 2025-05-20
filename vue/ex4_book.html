@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>도서 목록</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <style>
+      .book-list {
+        margin: 20px;
+      }
+      .selected-books {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f0f0f0;
+      }
+      .book-item {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <div class="book-list">
+        <h2>도서 목록</h2>
+        <div v-for="(book, index) in books" :key="index" class="book-item">
+          <input type="checkbox" :id="'book' + index" v-model="book.selected" />
+          <label :for="'book' + index"
+            >{{ book.title }} - {{ book.price }}원</label
+          >
+        </div>
+      </div>
+
+      <div class="selected-books">
+        <h3>선택된 도서 목록</h3>
+        <ul>
+          <li v-for="book in selectedBooks" :key="book.title">
+            {{ book.title }} - {{ book.price }}원
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script>
+      const { createApp } = Vue;
+
+      createApp({
+        data() {
+          return {
+            books: [
+              { title: "자바뽀개기", price: 25000, selected: false },
+              { title: "마리아디비끝내기", price: 25000, selected: false },
+              { title: "ㅋ뿔소js", price: 25000, selected: false },
+              { title: "리액트잡아먹기", price: 25000, selected: false },
+              { title: "뷰박살내기", price: 25000, selected: false },
+            ],
+          };
+        },
+        computed: {
+          selectedBooks() {
+            return this.books.filter((book) => book.selected);
+          },
+        },
+      }).mount("#app");
+    </script>
+  </body>
+</html>

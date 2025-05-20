@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>이벤트연습</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script defer>
+      document.addEventListener("DOMContentLoaded", function () {
+        const app = Vue.createApp({
+          data() {
+            return {
+              number1: 0,
+              number2: 0,
+              count: 0,
+            };
+          },
+          methods: {
+            rollDiceEvent() {
+              let num = Math.floor(Math.random() * 6 + 1);
+              this.number1 = num;
+            },
+            rollDiceEvent2(arg) {
+              let num = Math.floor(Math.random() * 6 + 1 + arg);
+              this.number2 = num;
+            },
+          },
+        }).mount("#app");
+      });
+    </script>
+  </head>
+  <body>
+    <h1>이벤트의 이해</h1>
+    <div id="app">
+      주사위수 : {{number1}}
+      <button v-on:click="rollDiceEvent">주사위 던지기</button><br />
+      주사위 수 + 10 : {{number2}}
+      <button @click="rollDiceEvent2(10)">주사위 던지기2</button>
+    </div>
+  </body>
+</html>

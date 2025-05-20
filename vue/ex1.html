@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- jQuery CDN (defer 적용) -->
+    <script src="https://code.jquery.com/jquery-latest.js" defer></script>
+    <!-- jQuery 코드 (defer 적용, 내부 script도 가능) -->
+    <script defer>
+      document.addEventListener("DOMContentLoaded", function () {
+        $("#msg").text("jQuery 메세지");
+      });
+    </script>
+    <!-- Vue CDN (defer 적용) -->
+    <script src="https://unpkg.com/vue@v3.1.1" defer></script>
+    <!-- Vue 1 코드 (defer 적용) -->
+    <script defer>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hi = { msg: "뷰 메세지: 안녕?" };
+        Vue.createApp({
+          data() {
+            return hi;
+          },
+        }).mount("#app1");
+      });
+    </script>
+    <!-- 외부 Vue 2 코드 (defer 적용, 내용은 ex1.js에 작성) -->
+    <script src="ex1.js" defer></script>
+  </head>
+  <body>
+    jQuery 출력 결과 : <span id="msg"></span>
+    <hr />
+    vue 출력 결과 :
+    <div id="app1">{{msg}}</div>
+    <hr />
+    vue 출력 결과2 :
+    <div id="app2">
+      <span> {{message1}} </span>
+      <span> {{message2}} </span>
+      <span> {{message3}} </span>
+      <br />
+      <button @click="updateMessage">메세지 갱신</button>
+    </div>
+  </body>
+</html>

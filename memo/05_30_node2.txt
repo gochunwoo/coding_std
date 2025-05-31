@@ -1,0 +1,50 @@
+노드 Express
+
+프로젝트 디렉토리 설정:
+mkdir 파일명
+cd 파일명 이동
+npm init -y
+npm install express
+
+express서버 코드 작성
+
+// 1단계: 모듈 임포트
+const express = require("express"); // Express 프레임워크 불러오기
+const path = require("path"); // 파일 경로 조작을 위한 path 모듈
+
+// 2단계: 앱 설정
+const app = express(); // Express 앱 객체 생성
+const port = 3000; // 사용할 포트 번호
+
+// 3단계: 정적 파일 제공
+app.use(express.static(path.join(__dirname, "public")));
+// public 폴더 안의 정적 파일(css, js, 이미지 등)을 자동 서빙
+
+// 4단계: 라우팅
+app.get("/", (req, res) => {
+  res.sendFile(path.join(__dirname, "public", "index.html"));
+});
+// 루트 경로(/)로 접근 시 index.html 반환
+
+// 5단계: 서버 실행
+app.listen(port, () => {
+  console.log(`서버가 실행중입니다 localhost:${port}`);
+});
+
+ㅡㅡ
+각 부분의 역할 요약
+require("express") : Express 프레임워크 로딩(불러오기)
+express( ) : Express 앱 객체 생성
+express.static() : 정적 파일 제공을 미들웨어 등록
+path.join(...) : OS에 맞게 경로 연결 (windows. macOS 등 호환용)
+app.get("/" , ...) : 루트 경로로 요청 시 응답 처리
+res.sendFile(...) : 특정 HTML 파일 전송
+app.listen(...) : 서버를 지정한 포트에서 실행 시작
+
+
+
+
+
+
+
+

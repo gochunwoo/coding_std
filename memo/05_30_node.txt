@@ -1,0 +1,88 @@
+// MariaDB 연결 설정 (createPool)
+import mariadb from "mariadb";
+
+// 1. DB 연결을 위한 커넥션 풀 생성
+const pool = mariadb.createPool({
+  host: "localhost",         // DB 호스트 주소
+  user: "root",              // 사용자 계정
+  password: "123",           // 비밀번호
+  database: "test",          // 사용할 DB명
+  connectionLimit: 5,        // 동시에 유지할 최대 커넥션 수});
+
+// 2. 커넥션을 pool에서 받아 사용
+// 커넥션 풀에서 하나의 DB 연결을 받아오는 유틸 함수
+async function getConnection() {
+  return pool.getConnection();  // 비동기로 커넥션 객체 반환}
+
+
+// 3. CRUD 함수들
+
+1.) selectQuery( )
+> SELECT code,sang,su,dan FROM sangdata
+> 결과 개수 출력 및 for...of 루프로 개별 행출력
+
+2.) insertQuery(code,sang,su,dan)
+> INSERT INTO sangdata (...) VALUES (?,?,?,?)
+> 배열 인자를 통해 값 전달 -> SQL 인젝션 방지
+
+3.) updateQuery(code,sang,su,dan)
+> UPDATE sangdata (...) VALUES(?,?,?,?)
+> 특정 코드의 항목 수정
+
+4.) deleteQuery(code)
+> DELETE FROM sangdata WHERE code=?
+> 특정 코드의 항목 삭제
+
+
+// 4. main 함수 (엔트리 포인트)
+async function main() {
+  try {
+    // insert/update/delete 선택적 실행
+    const rows = await selectQuery();  // 최종 조회
+    console.log(JSON.stringify(rows, null, 2));
+  } catch (err) { ... } finally {
+    await pool.end(); // 리소스 정리
+  }}
+> 전체 로직 실행 후 pool.end() 로 connection  pool을 안전하게 닫음
+
+** 공통 핵심 로직 요소 정리
+Prepared Statement(?) : SQL injection 방지용 안전한 쿼리 구성 방식
+Connection 확보 & 해제 : 각작업마다 커넥션을 열고, 끝나면 반드시 release
+예외 처리 : try-catch 로 예외발생시 로그 및 중단
+결과값 사용 : rows, result, affectedRows 등으로 결과 확인
+WHERE 절 : 업데이트, 삭제 시 선택적 타깃 지정에 필수
+비동기 처리 : async/await로 DB와의 비동기 통신 관리
+
+
+각 줄/블록의 동작 원리는 무엇인가?
+1). import mariadb from "mariadb";
+  > ESM 방식의 모듈 import (CommonJS 에서는 require 사용)
+
+2). createPool({ ... })
+  > pool 객체 생성. 내부적으로 여러 DB 연결을 미리 유지
+
+3). async function ... await ...
+  > 비동기 처리. DB작업이 완료될 떄까지 기다림
+
+4). quert(sql, params)
+  > SQL 실행, ? 는 prepared statement로 SQL injection 방지
+
+5). 트라이 캐치 파이너리
+  > 예외 발생 시 로깅하고 커넥션을 안전하게 해제
+
+이렇게 작성한이유?
+1. createPool()		여러 작업에서 커넥션을 재사용하기 위한 효율적 설계
+2. async/await		비동기 흐름을 동기적으로 읽히도록 하여 가독성 향상
+3. try-finally	release 	보장을 위해 반드시 필요한 자원 정리 패턴
+4. query(?, ?, ?)		보안상 안전한 파라미터 바인딩 방식
+5. main() 구조		특정 쿼리만 선택 실행 후 전체 종료하도록 통제점 제공
+
+
+실행 흐름
+main()
+ ├─ (원하는 CRUD 함수 실행)
+ │    ├─ getConnection()
+ │    ├─ SQL 쿼리 실행
+ │    ├─ 결과 반환 및 출력
+ │    └─ connection.release()
+ └─ pool.end() 로 전체 종료

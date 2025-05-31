@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>직원 관리 - 부서/직원/고객 관리 시스템</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <nav class="nav-bar">
+        <div class="nav-container">
+          <a href="main.html" class="nav-title">부서/직원/고객 관리 시스템</a>
+          <div class="nav-links">
+            <a href="main.html">홈</a>
+            <a href="buser.html">부서</a>
+            <a href="jikwon.html">직원</a>
+            <a href="gogek.html">고객</a>
+            <a href="total.html">통합</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="section">
+          <h2>직원 정보</h2>
+          <div class="button-group">
+            <button @click="fetchData">데이터 가져오기</button>
+            <button @click="clearData">데이터 지우기</button>
+          </div>
+
+          <div v-if="error" class="error-message">{{ error }}</div>
+
+          <table v-if="jikwons.length > 0">
+            <thead>
+              <tr>
+                <th>직원번호</th>
+                <th>이름</th>
+                <th>부서</th>
+                <th>직급</th>
+                <th>급여</th>
+                <th>입사일</th>
+                <th>성별</th>
+                <th>평가</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="jikwon in jikwons" :key="jikwon.jikwonno">
+                <td>{{ jikwon.jikwonno }}</td>
+                <td>{{ jikwon.jikwonname }}</td>
+                <td>{{ jikwon.buser }}</td>
+                <td>{{ jikwon.jikwonjik }}</td>
+                <td>{{ jikwon.jikwonpay }}</td>
+                <td>{{ jikwon.jikwonibsail }}</td>
+                <td>{{ jikwon.jikwongen }}</td>
+                <td>{{ jikwon.jikwonrating }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="jikwon.js"></script>
+  </body>
+</html>

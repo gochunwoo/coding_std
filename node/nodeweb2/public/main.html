@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>직원 관리 시스템</title>
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="container py-5">
+      <h2 class="text-center mb-4 animate-fadein">직원 관리 시스템</h2>
+      <div class="card shadow-lg p-4 animate-popin">
+        <div class="mb-3 row">
+          <label for="emp-name" class="col-sm-2 col-form-label">이름</label>
+          <div class="col-sm-7">
+            <input
+              type="text"
+              id="emp-name"
+              class="form-control"
+              placeholder="이름 입력"
+            />
+          </div>
+          <div class="col-sm-3 d-grid gap-2 d-md-flex justify-content-md-end">
+            <button id="add-emp" class="btn btn-success animate-btn">
+              직원 추가
+            </button>
+          </div>
+        </div>
+        <div class="mb-3 d-flex gap-2">
+          <button id="get-emp" class="btn btn-primary animate-btn">
+            직원 목록 조회
+          </button>
+          <button id="clear-list" class="btn btn-outline-secondary animate-btn">
+            목록 지우기
+          </button>
+        </div>
+        <ul id="emp-list" class="list-group mt-3 animate-list"></ul>
+      </div>
+    </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const empList = document.getElementById("emp-list");
+        const empNameInput = document.getElementById("emp-name");
+        const getEmpBtn = document.getElementById("get-emp");
+        const addEmpBtn = document.getElementById("add-emp");
+        const clearBtn = document.getElementById("clear-list");
+
+        // 직원 목록 조회
+        getEmpBtn.addEventListener("click", () => {
+          fetch("/jikwon/emps", { method: "GET" })
+            .then((response) => response.json())
+            .then((data) => {
+              empList.innerHTML = "";
+              if (data.length === 0) {
+                empList.innerHTML =
+                  '<li class="list-group-item text-center">직원이 없습니다.</li>';
+                return;
+              }
+              data.forEach((emp) => {
+                const li = document.createElement("li");
+                li.className = "list-group-item animate-list-item";
+                li.textContent = `${emp.id} : ${emp.name}`;
+                empList.appendChild(li);
+              });
+            });
+        });
+
+        // 직원 추가
+        addEmpBtn.addEventListener("click", () => {
+          const name = empNameInput.value.trim();
+          if (!name) {
+            empNameInput.classList.add("is-invalid");
+            empNameInput.focus();
+            return;
+          }
+          empNameInput.classList.remove("is-invalid");
+          fetch("/jikwon/emps", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ name }),
+          })
+            .then((response) => response.json())
+            .then((emp) => {
+              const li = document.createElement("li");
+              li.className = "list-group-item animate-list-item";
+              li.textContent = `${emp.id} : ${emp.name}`;
+              empList.appendChild(li);
+              empNameInput.value = "";
+              empNameInput.focus();
+            })
+            .catch((error) => {
+              alert("직원 추가 오류: " + error.message);
+            });
+        });
+
+        // 목록 지우기
+        clearBtn.addEventListener("click", () => {
+          empList.innerHTML = "";
+        });
+      });
+    </script>
+    <!-- Bootstrap JS (optional, for some components) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

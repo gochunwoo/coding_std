@@ -1,0 +1,24 @@
+{
+  "name": "nodeweb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon web2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "events": "^3.3.0",
+    "express": "^5.1.0",
+    "fs": "^0.0.1-security",
+    "mariadb": "^3.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

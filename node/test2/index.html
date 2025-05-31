@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Node.js 웹서버 예제</title>
+  </head>
+  <body>
+    <h1>안녕하세요! Node.js 웹서버입니다.</h1>
+    <h2>DB 자료 목록</h2>
+    <table id="dbTable" border="1">
+      <thead>
+        <tr>
+          <th>코드</th>
+          <th>상품</th>
+          <th>제품</th>
+          <th>단가</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- JS로 데이터가 들어감 -->
+      </tbody>
+    </table>
+    <script>
+      fetch("/list")
+        .then((res) => res.json())
+        .then((rows) => {
+          const tbody = document.querySelector("#dbTable tbody");
+          rows.forEach((row) => {
+            const tr = document.createElement("tr");
+            tr.innerHTML = `<td>${row.code}</td><td>${row.sang}</td><td>${row.su}</td><td>${row.dan}</td>`;
+            tbody.appendChild(tr);
+          });
+        });
+    </script>
+  </body>
+</html>

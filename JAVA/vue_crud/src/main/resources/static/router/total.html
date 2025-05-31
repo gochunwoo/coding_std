@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>통합 정보 - 부서/직원/고객 관리 시스템</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="app">
+      <nav class="nav-bar">
+        <div class="nav-container">
+          <a href="main.html" class="nav-title">부서/직원/고객 관리 시스템</a>
+          <div class="nav-links">
+            <a href="main.html">홈</a>
+            <a href="buser.html">부서</a>
+            <a href="jikwon.html">직원</a>
+            <a href="gogek.html">고객</a>
+            <a href="total.html">통합</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container">
+        <div class="section">
+          <h2>통합 정보</h2>
+          <div class="button-group">
+            <button @click="fetchData">데이터 가져오기</button>
+            <button @click="clearData">데이터 지우기</button>
+          </div>
+
+          <div v-if="error" class="error-message">{{ error }}</div>
+
+          <table v-if="joinData.length > 0">
+            <thead>
+              <tr>
+                <th>부서번호</th>
+                <th>부서명</th>
+                <th>위치</th>
+                <th>직원번호</th>
+                <th>직원명</th>
+                <th>직급</th>
+                <th>급여</th>
+                <th>고객번호</th>
+                <th>고객명</th>
+                <th>고객전화</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="data in joinData" :key="data.buserno">
+                <td>{{ data.buserno }}</td>
+                <td>{{ data.busername }}</td>
+                <td>{{ data.buserloc }}</td>
+                <td>{{ data.jikwonno }}</td>
+                <td>{{ data.jikwonname }}</td>
+                <td>{{ data.jikwonjik }}</td>
+                <td>{{ data.jikwonpay }}</td>
+                <td>{{ data.gogekno }}</td>
+                <td>{{ data.gogekname }}</td>
+                <td>{{ data.gogektel }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <script src="total.js"></script>
+  </body>
+</html>

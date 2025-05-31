@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API 요청 예제</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: #f4f4f4;
+        margin: 0;
+      }
+      .container {
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+      hr {
+        margin: 20px 0;
+        border: 0;
+        border-top: 1px solid #eee;
+      }
+      input[type="text"] {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        width: calc(100% - 22px); /* padding 고려 */
+        box-sizing: border-box; /* 패딩 포함 크기 계산 */
+      }
+      button {
+        padding: 10px 20px;
+        background-color: #5cb85c;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        background-color: #4cae4c;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>API 요청 예제</h1>
+      <hr />
+      <input id="name" type="text" value="summer" placeholder="이름 입력" />
+      <button onclick="getSeason()">API 요청</button>
+      <div id="output"></div>
+    </div>
+    <script>
+      function getSeason() {
+        const name = document.querySelector("#name").value;
+        const outputDiv = document.querySelector("#output");
+
+        fetch(`http://localhost:3000/user/${name}`)
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+          })
+          .then((data) => {
+            console.log(data);
+            outputDiv.innerHTML = `<h3>결과:</h3><pre>${JSON.stringify(
+              data,
+              null,
+              2
+            )}</pre>`;
+          })
+          .catch((error) => {
+            console.error("Fetch error:", error);
+            outputDiv.innerHTML = `<h3 style="color: red;">오류:</h3><p>${error.message}</p>`;
+          });
+      }
+    </script>
+  </body>
+</html>

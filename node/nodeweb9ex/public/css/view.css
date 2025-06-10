@@ -1,0 +1,22 @@
+body {
+  background: #f8f9fa;
+}
+.post-container {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  background: #fff;
+  border-radius: 8px;
+}
+.post-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.post-info {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+.button-group {
+  margin-top: 20px;
+}

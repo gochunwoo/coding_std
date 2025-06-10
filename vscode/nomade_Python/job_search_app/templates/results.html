@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Results for "{{ keyword }}"</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      .container {
+        max-width: 900px;
+        margin: 20px auto;
+        background: #fff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      h1 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .actions {
+        text-align: right;
+        margin-bottom: 20px;
+      }
+      .actions a {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #007bff;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+        margin-left: 10px;
+      }
+      .actions a:hover {
+        background-color: #0056b3;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 12px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+        color: #333;
+      }
+      tr:nth-child(even) {
+        background-color: #f9f9f9;
+      }
+      tr:hover {
+        background-color: #e9e9e9;
+      }
+      td a {
+        color: #007bff;
+        text-decoration: none;
+      }
+      td a:hover {
+        text-decoration: underline;
+      }
+      .no-results {
+        text-align: center;
+        color: #666;
+        margin-top: 30px;
+      }
+      .back-link {
+        display: block;
+        margin-top: 20px;
+        text-align: center;
+      }
+      .back-link a {
+        display: inline-block;
+        padding: 10px 15px;
+        background-color: #6c757d;
+        color: white;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+      .back-link a:hover {
+        background-color: #5a6268;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>"{{ keyword }}" 검색 결과</h1>
+
+      {% if jobs %}
+      <div class="actions">
+        <a href="/">새로운 검색</a>
+        <a href="/export">CSV로 내보내기</a>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th>제목</th>
+            <th>회사</th>
+            <th>보상/지역</th>
+            <th>링크</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for job in jobs %}
+          <tr>
+            <td>{{ job.title }}</td>
+            <td>{{ job.company }}</td>
+            <td>{{ job.reward }}</td>
+            <td><a href="{{ job.link }}" target="_blank">바로가기</a></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      {% else %}
+      <p class="no-results">검색 결과가 없습니다.</p>
+      <div class="back-link">
+        <a href="/">새로운 검색</a>
+      </div>
+      {% endif %}
+    </div>
+  </body>
+</html>

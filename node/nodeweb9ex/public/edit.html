@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>게시글 수정</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/edit.css" />
+  </head>
+  <body>
+    <!-- 상단 네비게이션 -->
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top mb-4 shadow-sm"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">MyBoard</a>
+        <div class="d-flex gap-2">
+          <a href="board.html" class="btn btn-outline-light">게시판</a>
+          <a href="write.html" class="btn btn-light">글쓰기</a>
+        </div>
+      </div>
+    </nav>
+    <div class="container py-4">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <div class="edit-container shadow-sm bg-white rounded-4 p-4">
+            <h2 class="mb-4">게시글 수정</h2>
+            <form id="editForm">
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  id="editTitle"
+                  placeholder="제목"
+                  required
+                />
+                <div class="form-text text-end">
+                  <span id="editTitleCount">0 / 30</span>
+                </div>
+              </div>
+              <div class="mb-3">
+                <textarea
+                  class="form-control form-control-lg"
+                  id="editContent"
+                  placeholder="내용"
+                  rows="7"
+                  required
+                ></textarea>
+                <div class="form-text text-end">
+                  <span id="editContentCount">0 / 1000</span>
+                </div>
+              </div>
+              <div class="d-flex gap-2 justify-content-end">
+                <button type="submit" class="btn btn-primary px-4">수정</button>
+                <a
+                  href="view.html?num="
+                  id="cancelBtn"
+                  class="btn btn-secondary px-4"
+                  >취소</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 결과 안내 모달 -->
+    <div class="modal fade" id="resultModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-body" id="resultMsg"></div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-dismiss="modal"
+            >
+              확인
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/edit.js"></script>
+    <script>
+      // 취소 버튼에 현재 게시글 번호 반영
+      const urlParams = new URLSearchParams(window.location.search);
+      const postNum = urlParams.get("num");
+      document.getElementById("cancelBtn").href = `view.html?num=${postNum}`;
+    </script>
+  </body>
+</html>

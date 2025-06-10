@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>보스턴 주택 가격 예측</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+      }
+      th,
+      td {
+        padding: 8px;
+        text-align: center;
+        border: 1px solid #ddd;
+      }
+      th {
+        background-color: #f5f5f5;
+      }
+      button {
+        padding: 8px 16px;
+        margin: 5px;
+        cursor: pointer;
+      }
+      input {
+        padding: 8px;
+        margin: 5px;
+      }
+      #result-container {
+        margin-top: 20px;
+      }
+      .chart-container {
+        margin: 20px 0;
+        height: 400px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>보스턴 지역 평균 집값 예측 : 단순선형회귀</h2>
+    <button id="showButton">분석하기</button>
+
+    <div id="result-container">
+      <div id="input-container">
+        <label for="roomsInput">방 개수:</label>
+        <input type="number" id="roomsInput" min="1" step="0.1" />
+        <button id="predictButton">예측하기</button>
+      </div>
+      <div id="single-prediction-container">
+        <h3>예측 결과</h3>
+        <p id="singlePrediction"></p>
+      </div>
+      <div id="prediction-container">
+        <h3>학습 진행 상황</h3>
+        <p id="actualPrediction"></p>
+      </div>
+      <div class="chart-container">
+        <canvas id="scatter-chart"></canvas>
+      </div>
+    </div>
+    <script type="module">
+      import { runAnaylsis } from "/nodedtf/tf2.js";
+      window.runAnaylsis = runAnaylsis;
+    </script>
+  </body>
+</html>

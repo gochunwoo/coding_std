@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>상품 추가</title>
+  </head>
+  <body>
+    <h1>➕상품 추가➕</h1>
+    <form id="insertForm">
+      <div>
+        <label for="code">코드:</label>
+        <input type="text" id="code" required />
+      </div>
+      <div>
+        <label for="sang">품명:</label>
+        <input type="text" id="sang" required />
+      </div>
+      <div>
+        <label for="su">수량:</label>
+        <input type="number" id="su" required />
+      </div>
+      <div>
+        <label for="dan">단가:</label>
+        <input type="number" id="dan" required />
+      </div>
+      <div>
+        <button type="submit">추가</button>
+        <button type="button" onclick="location.href='/select.html'">
+          취소
+        </button>
+      </div>
+    </form>
+
+    <script>
+      // 폼 제출 처리
+      document
+        .getElementById("insertForm")
+        .addEventListener("submit", async (e) => {
+          e.preventDefault();
+
+          const data = {
+            code: document.getElementById("code").value,
+            sang: document.getElementById("sang").value,
+            su: parseInt(document.getElementById("su").value),
+            dan: parseInt(document.getElementById("dan").value),
+          };
+
+          // 데이터 추가
+          try {
+            const response = await fetch("/sangdata", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify(data), // 데이터를 JSON 형식으로 변환
+            });
+
+            if (!response.ok) {
+              // 응답이 성공적이지 않으면 오류 발생
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+
+            alert("상품이 추가되었습니다.");
+            location.href = "/select.html";
+          } catch (error) {
+            console.error("추가 실패:", error);
+            alert("상품 추가에 실패했습니다.");
+          }
+        });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>상품 목록</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-3">
+      <div class="mb-3">
+        <button id="get-data" class="btn btn-primary">상품 목록 조회</button>
+        <button id="clear-table" class="btn btn-secondary">목록 지우기</button>
+      </div>
+      <div id="sang-list"></div>
+    </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const sangList = document.getElementById("sang-list");
+        const getDataBtn = document.getElementById("get-data");
+        const clearBtn = document.getElementById("clear-table");
+
+        // 상품 목록 조회
+        getDataBtn.addEventListener("click", () => {
+          fetch("/sangdata", { method: "GET" })
+            .then((response) => response.json())
+            .then((data) => {
+              sangList.innerHTML = "";
+              if (data.length === 0) {
+                sangList.innerHTML = "상품이 없습니다.";
+                return;
+              }
+              const table = document.createElement("table");
+              table.className = "table";
+              table.innerHTML = `
+                <thead>
+                  <tr>
+                    <th>코드</th>
+                    <th>상품명</th>
+                    <th>수량</th>
+                    <th>단가</th>
+                    <th>금액</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              `;
+              const tbody = table.querySelector("tbody");
+              data.forEach((item) => {
+                const total = item.su * item.dan;
+                const tr = document.createElement("tr");
+                tr.innerHTML = `
+                  <td>${item.code}</td>
+                  <td>${item.sang}</td>
+                  <td>${item.su}</td>
+                  <td>${item.dan}</td>
+                  <td>${total}</td>
+                `;
+                tbody.appendChild(tr);
+              });
+              sangList.appendChild(table);
+            })
+            .catch((error) => {
+              alert("데이터 조회 오류: " + error.message);
+            });
+        });
+
+        // 목록 지우기
+        clearBtn.addEventListener("click", () => {
+          sangList.innerHTML = "";
+        });
+      });
+    </script>
+  </body>
+</html>

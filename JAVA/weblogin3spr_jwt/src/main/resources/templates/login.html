@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>session 로그인 연습</h2>
+    <form th:action="@{/login}" method="post">
+      <table>
+        <tr>
+          <td>id :</td>
+          <td><input type="text" name="userid" /></td>
+        </tr>
+        <tr>
+          <td>pw :</td>
+          <td><input type="password" name="userpassword" /></td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="로그인" />
+          </td>
+        </tr>
+      </table>
+      <div style="color: red; font-size: 1.2em">
+        <th:block th:if="${error}">[[${error}]]</th:block>
+      </div>
+    </form>
+  </body>
+</html>

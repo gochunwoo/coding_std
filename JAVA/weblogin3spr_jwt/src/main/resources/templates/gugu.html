@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>구구단</title>
+    <style>
+      .result {
+        margin-top: 20px;
+      }
+      table {
+        border-collapse: collapse;
+      }
+      td {
+        padding: 5px;
+        border: 1px solid #ddd;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>구구단 페이지</h2>
+    <form th:action="@{/gugu}" method="post">
+      <table>
+        <tr>
+          <td>단수 :</td>
+          <td>
+            <input type="number" id="num" name="num" min="2" max="9" required />
+          </td>
+        </tr>
+        <tr>
+          <td colspan="2">
+            <input type="submit" value="구구단 출력" />
+          </td>
+        </tr>
+      </table>
+    </form>
+
+    <div class="result" th:if="${dan != null}">
+      <h3 th:text="${dan} + '단'"></h3>
+      <table>
+        <tr th:each="i : ${#numbers.sequence(1, 9)}">
+          <td th:text="${dan} + ' x ' + ${i} + ' = ' + ${dan * i}"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

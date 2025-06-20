@@ -1,4 +1,4 @@
-package pack.config.model;
+package pack.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;

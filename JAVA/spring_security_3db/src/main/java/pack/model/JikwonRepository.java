@@ -1,4 +1,6 @@
 package pack.model;
 
-public interface JikwonRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface JikwonRepository extends JpaRepository<Jikwon, Long> {
 }

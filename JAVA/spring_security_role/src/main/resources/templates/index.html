@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html
+  lang="ko"
+  xmlns:th="http://www.thymeleaf.org"
+  xmlns:sec="http://www.thymeleaf.org/extras/spring-security"
+>
+  <head>
+    <meta charset="UTF-8" />
+    <title>홈 페이지 - Spring Security</title>
+  </head>
+  <body>
+    <div>
+      <h1>홈 페이지</h1>
+      <div sec:authorize="isAuthenticated()">
+        <strong sec:authentication="name"></strong>님 로그인 중....
+        <a th:href="@{/user/logout}">로그아웃</a>
+      </div>
+
+      <div sec:authorize="!isAuthenticated()">
+        로그인 중이 아닙니다
+        <a th:href="@{/user/loginform}">로그인 하기</a>
+      </div>
+
+      <ul>
+        <li><a th:href="@{/notice}">공지 사항 보기(로그인 X)</a></li>
+        <li><a th:href="@{/play}">회원 전용 공간(로그인 O)</a></li>
+        <li><a th:href="@{/shop}">쇼핑 하기(로그인 X), 상품 구입시(로그인 O)</a></li>
+        <li><a th:href="@{/staff/user/list}">회원 목록 보기 열람(STAFF, ADMIN 전용)</a></li>
+        <li><a th:href="@{/admin/user/manage}">회원 관리</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
